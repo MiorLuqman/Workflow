@@ -1,0 +1,4 @@
+title: Module
+modelClass: Mesb\Workflow\Models\Module
+toolbar:
+    buttons: reorder_toolbar

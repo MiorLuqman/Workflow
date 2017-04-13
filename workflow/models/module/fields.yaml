@@ -1,0 +1,22 @@
+fields:
+    workflow_name:
+        label: Workflow
+        oc.commentPosition: ''
+        span: left
+        type: text
+    display_order:
+        label: 'Display Order'
+        span: auto
+        oc.commentPosition: ''
+        type: number
+    rule:
+        label: Rule
+        oc.commentPosition: ''
+        nameFrom: display_rule
+        descriptionFrom: description
+        span: auto
+        cssClass: Module
+        type: relation
+
+        
+

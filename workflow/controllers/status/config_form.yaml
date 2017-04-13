@@ -1,0 +1,10 @@
+name: Status
+form: $/mesb/workflow/models/status/fields.yaml
+modelClass: Mesb\Workflow\Models\Status
+defaultRedirect: mesb/workflow/status
+create:
+    redirect: 'mesb/workflow/status/update/:id'
+    redirectClose: mesb/workflow/status
+update:
+    redirect: mesb/workflow/status
+    redirectClose: mesb/workflow/status

@@ -1,0 +1,26 @@
+fields:
+    status_id:
+        label: 'Status From'
+        oc.commentPosition: ''
+        span: left
+        nameFrom: status_type
+        type: relation
+    statusto_id:
+        label: 'Status To'
+        oc.commentPosition: ''
+        nameFrom: status_type
+        descriptionFrom: description
+        span: auto
+        type: relation
+    group_id:
+        label: Group
+        span: auto
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        type: relation
+    display_rule:
+        label: 'Rule Name'
+        span: right
+        oc.commentPosition: ''
+        type: text

@@ -1,0 +1,7 @@
+columns:
+    status_type:
+        label: Status
+        type: text
+    display_order:
+        label: 'Display Order'
+        type: number

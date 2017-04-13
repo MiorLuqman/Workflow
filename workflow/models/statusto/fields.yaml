@@ -1,0 +1,11 @@
+fields:
+    status_to_type:
+        label: 'Status To'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    display_order:
+        label: 'Display Order'
+        span: auto
+        oc.commentPosition: ''
+        type: number

@@ -1,0 +1,4 @@
+title: StatusTo
+modelClass: Mesb\Workflow\Models\StatusTo
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,28 @@
+plugin:
+    name: 'mesb.workflow::lang.plugin.name'
+    description: 'mesb.workflow::lang.plugin.description'
+    author: mesb
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Workflow
+        url: mesb/workflow/module
+        icon: icon-life-ring
+        sideMenu:
+            side-menu-item:
+                label: Workflow
+                url: mesb/workflow/module
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Status
+                url: mesb/workflow/status
+                icon: icon-sitemap
+            side-menu-item4:
+                label: 'Status To'
+                url: mesb/workflow/statusto
+                icon: icon-sitemap
+            side-menu-item3:
+                label: 'Status Rule'
+                url: mesb/workflow/statusrule
+                icon: icon-sitemap

@@ -1,0 +1,19 @@
+columns:
+    status_id:
+        label: 'Status From'
+        type: number
+        relation: status_id
+        select: status_type
+    statusto_id:
+        label: 'Status To'
+        type: number
+        relation: statusto_id
+        select: status_type
+    group_id:
+        label: Group
+        type: number
+        relation: group_id
+        select: name
+    display_rule:
+        label: 'Display Rule'
+        type: text

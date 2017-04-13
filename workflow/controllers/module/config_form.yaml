@@ -1,0 +1,10 @@
+name: Module
+form: $/mesb/workflow/models/module/fields.yaml
+modelClass: Mesb\Workflow\Models\Module
+defaultRedirect: mesb/workflow/module
+create:
+    redirect: 'mesb/workflow/module/update/:id'
+    redirectClose: mesb/workflow/module
+update:
+    redirect: mesb/workflow/module
+    redirectClose: mesb/workflow/module

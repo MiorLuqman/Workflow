@@ -1,0 +1,7 @@
+columns:
+    workflow_name:
+        label: Workflow
+        type: text
+    display_order:
+        label: 'Display Order'
+        type: number
